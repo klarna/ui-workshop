@@ -1,7 +1,23 @@
-import style from './index.css'
+import React from 'react'
+import { render } from 'react-dom'
+import * as Button from '@klarna/ui/Button'
+import styles from './index.css'
 
-const div = document.createElement('div')
-div.innerHTML = '<h1>Hello World</h1>'
-div.className = style.component
+function Workshop () {
+  return (
+    <div>
+      <Button.Secondary className={styles.left}>
+        Go back
+      </Button.Secondary>
 
-document.getElementById('ui-workshop').appendChild(div)
+      <Button.Primary>
+        Continue
+      </Button.Primary>
+    </div>
+  )
+}
+
+render(
+  <Workshop />,
+  document.getElementById('ui-workshop')
+)
