@@ -1,12 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
 import * as Button from '@klarna/ui/Button'
-import styles from './index.css'
 
 function Workshop () {
   return (
     <div>
-      <Button.Secondary className={styles.left}>
+      <Button.Secondary className='left'>
         Go back
       </Button.Secondary>
 

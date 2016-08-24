@@ -9,6 +9,10 @@ module.exports = {
     transpileDependencies: ['@klarna/ui']
   },
 
+  style: {
+    cssModules: false
+  },
+
   webpack: {
     babel: {
       babelrc: false,
