@@ -5,7 +5,7 @@ import * as Button from '@klarna/ui/Button'
 function Workshop () {
   return (
     <div>
-      <Button.Secondary className='left'>
+      <Button.Secondary className='leftButton'>
         Go back
       </Button.Secondary>
 
