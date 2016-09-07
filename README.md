@@ -24,3 +24,9 @@ To start:
   `npm start`
 
 6. Go to the `http://localhost:2016/` and you will find the basic example.
+
+## Useful tools
+
+- Get syntax highlighting for JSX files: since we are going to work heavily on JSX, it is very practical for you to have a syntax highlighter for that file type in your editor. 
+  - For [Atom, the `language-babel` package](https://atom.io/packages/language-babel)
+  - For [Sublime Text, the Babel package](https://packagecontrol.io/packages/Babel)
