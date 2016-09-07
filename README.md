@@ -1,13 +1,13 @@
 UI Workshop
 ===========
 
-Here you find the setup to run the examples that are going to be demonstrated in the UI Workshop in the KonferenSE 2016. 
+Here you find the setup to run the examples that are going to be demonstrated in the UI Workshop in the KonferenSE 2016.
 
 To start:
 
 1. Make sure you have [Latest Node.js](https://nodejs.org/en/) installed.
 
-2. Clone this repo somewhere handy (like your `Desktop` directory): 
+2. Clone this repo somewhere handy (like your `Desktop` directory):
 
   `git clone https://github.com/klarna/ui-workshop`
 
@@ -27,6 +27,10 @@ To start:
 
 ## Useful tools
 
-- Get syntax highlighting for JSX files: since we are going to work heavily on JSX, it is very practical for you to have a syntax highlighter for that file type in your editor. 
+- Get syntax highlighting for JSX files: since we are going to work heavily on JSX, it is very practical for you to have a syntax highlighter for that file type in your editor.
   - For [Atom, the `language-babel` package](https://atom.io/packages/language-babel)
   - For [Sublime Text, the Babel package](https://packagecontrol.io/packages/Babel)
+
+## Completed steps
+
+The code steps shown in the slides are available in the `src/steps` folder. Just copy paste the desired step code into `index.jsx` to try it out.
