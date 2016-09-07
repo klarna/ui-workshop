@@ -79,7 +79,7 @@ function Workshop () {
             <Dialog.Footer>
               <Button.Primary
                 style={{width: '100%'}}>
-                Close the nice dialog
+                Submit
               </Button.Primary>
             </Dialog.Footer>
           </Dialog.Main>
